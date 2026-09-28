@@ -1,0 +1,14 @@
+{
+  "name": "mass-mcp-examples",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public REST, MCP, and x402 integration examples for Mass Intelligence.",
+  "type": "module",
+  "scripts": {
+    "catalog": "node --env-file=.env examples/api/catalog.mjs",
+    "paid-request": "node --env-file=.env examples/api/paid-request.mjs"
+  },
+  "engines": {
+    "node": ">=20.6"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "mass-intelligence": {
+      "type": "streamable-http",
+      "url": "https://api.example.mass/mcp/",
+      "description": "Placeholder configuration. Use an authorized endpoint; do not store wallet keys here."
+    }
+  }
+}
